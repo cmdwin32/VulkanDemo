@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engineer">
+      <UniqueIdentifier>{a5c7179a-e62e-4d54-a99e-a7e924f98a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engineer\Core">
+      <UniqueIdentifier>{f531ced3-17b5-4281-8b9c-cf9a3b850c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engineer\Core\include">
+      <UniqueIdentifier>{180dade7-bee7-4198-8ec4-45190c750b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engineer\Core\source">
+      <UniqueIdentifier>{cb31cc65-6704-45a1-b611-cac195b4a702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engineer\Common">
+      <UniqueIdentifier>{6e5b35f0-6145-4513-887c-cba6770b67de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engineer\Common\vulkan.h">
+      <Filter>Engineer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Engineer\Common\stb_image.h">
+      <Filter>Engineer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Engineer\Common\vk_platform.h">
+      <Filter>Engineer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Engineer\Core\include\Engineer.h">
+      <Filter>Engineer\Core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Engineer\Common\loger.h">
+      <Filter>Engineer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Engineer\Core\include\OperatingSystem.h">
+      <Filter>Engineer\Core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Engineer\Common\VulkanFunctions.h">
+      <Filter>Engineer\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engineer\Core\source\Engineer.cpp">
+      <Filter>Engineer\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Engineer\Core\source\OperatingSystem.cpp">
+      <Filter>Engineer\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Engineer\Common\VulkanFunctions.cpp">
+      <Filter>Engineer\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engineer\Core\include\ListOfFunctions.inl">
+      <Filter>Engineer\Core\include</Filter>
+    </None>
+  </ItemGroup>
+</Project>
